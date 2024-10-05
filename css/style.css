@@ -45,7 +45,6 @@ header {
 .navi {
     float: right;
     margin-top: 30px;
-    margin-right: 10px;
 }
 
 .navi>li {
@@ -70,7 +69,7 @@ header {
 
 .submenu {
     width: 180px;
-    position: :absolute;
+    position: absolute;
     display: none;
     z-index: 1;
 }
