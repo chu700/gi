@@ -41,7 +41,12 @@ header{           /* A영역:상단 영역 */
 }
 
 #menu_bg{
-
+    width: 1200px;
+    height: 160px;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    background-color: #bbbbbb;
 }
 
 .menu{
@@ -95,6 +100,32 @@ header{           /* A영역:상단 영역 */
     color: #333333;
 }
 
+.submenu>li>a:hover{
+    background-color: #006478;
+}
+
+.imgslide{
+    width: 1200px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgslide>a{
+    display: block;
+    position: absolute;
+}
+
+.imgslide span{
+    width: 300px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    left: 40%;
+    top: 40%;
+    position: absolute;
+    background-color: rgba(100, 100, 100, 0.7);
+}
 
 .contents{
     width: 1200px;
