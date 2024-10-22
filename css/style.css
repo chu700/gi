@@ -51,6 +51,51 @@ header{           /* A영역:상단 영역 */
     z-index: 1;
 }
 
+.navi{
+    float: right;
+    margin-top: 50px;
+    margin-right: 0px;
+}
+
+.navi>li{
+    float: left;
+}
+
+.navi>li>a{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.navi>li>a:hover{
+    background-color: #006478;
+}
+
+.submenu{
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    z-index: 3;
+    background-color: #bbbbbb;
+}
+
+.submenu>li>a{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #bbbbbb;
+    color: #333333;
+}
+
+
 .contents{
     width: 1200px;
     height: 200px;
